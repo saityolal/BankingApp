@@ -5,7 +5,7 @@ private AccountConstants(){
     // To restrict object creation
 }
     public static final String SAVINGS = "Savings";
-    public static final String ADDRESS = "Hohchstädter Str, 10115 Berlin";
+    public static final String ADDRESS = "Hohchstädter Str, 13347 Berlin";
     public static final String STATUS_201 = "201";
     public static final String MESSAGE_201 = "Account created successfully";
     public static final String STATUS_200 = "200";
