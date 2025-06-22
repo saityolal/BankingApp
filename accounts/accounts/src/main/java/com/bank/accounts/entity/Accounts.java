@@ -18,7 +18,7 @@ public class Accounts extends BaseEntity {
     @Column(name = "account_Number")
     private Long accountNumber;
 
-    private String customerType;
+    private String accountType;
 
     private String branchAddress;
 
