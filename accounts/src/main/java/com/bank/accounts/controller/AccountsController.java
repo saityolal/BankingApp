@@ -64,7 +64,7 @@ public class AccountsController {
             )
 
     })
-    @GetMapping("/fetch-account-details")
+    @GetMapping("/fetch-account")
     public ResponseEntity<CustomerDto> fetchAccountDetails(@RequestParam String mobileNumber) {
         CustomerDto customerDto = iAccountsService.fetchAccount(mobileNumber);
         return ResponseEntity
@@ -91,7 +91,7 @@ public class AccountsController {
 
     })
 
-    @PutMapping("/update-account-details")
+    @PutMapping("/update-account")
     public ResponseEntity<ResponseDto> updateAccountDetails(@Valid @RequestBody CustomerDto customerDto) {
         boolean isUpdated = iAccountsService.updateAccount(customerDto);
         if (isUpdated) {
