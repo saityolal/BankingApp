@@ -11,6 +11,6 @@ COPY target/accounts-0.0.1-SNAPSHOT.jar accounts-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java", "-jar", "accounts-0.0.1-SNAPSHOT.jar"]
 
 
-# docker build . -t sadoyol/accounts:20250627
-# docker run -d -p 8080:8080 sadoyol/accounts:20250627
+# docker build . -t sadoyol/accounts:0.0.1-SNAPSHOT
+# docker run -d -p 8080:8080 sadoyol/accounts:0.0.1-SNAPSHOT
 # ? first port is the exposed port and the second is the container port
