@@ -1,8 +1,20 @@
 package com.bank.loans.dto;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "loans")
-public record LoansContactInfoDto(String message, ContactDetails contactDetails) {
-    public record ContactDetails(String name, String email, String github) {}
+@Getter
+@Setter
+public class LoansContactInfoDto {
+    private String message;
+    private ContactDetails contactDetails;
+}
+@Setter
+@Getter
+class ContactDetails {
+    private String name;
+    private String email;
+    private String github;
 }
