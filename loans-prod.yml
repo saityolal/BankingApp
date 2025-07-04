@@ -1,8 +1,0 @@
-build:
-  version: 0.0.3
-loans:
-  message: "Loans Microservice related to production"
-  contactDetails:
-    name: Sait Yolal - product owner
-    email: msaityolal@gmail.com
-    github: https://github.com/msaityolal

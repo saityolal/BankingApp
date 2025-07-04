@@ -1,9 +1,0 @@
-# application-prod.yml
-build:
-  version: 0.0.3
-accounts:
-  message: "Accounts Microservice related to production"
-  contactDetails:
-    name: Sait Yolal - product owner
-    email: msaityolal@gmail.com
-    github: https://github.com/msaityolal

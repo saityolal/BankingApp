@@ -1,8 +1,0 @@
-build:
-  version: 0.0.1
-cards:
-  message: "Cards Microservice"
-  contactDetails:
-    name: Sait Yolal
-    email: msaityolal@gmail.com
-    github: https://github.com/msaityolal
