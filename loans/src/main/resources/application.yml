@@ -14,3 +14,20 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  application:
+    name: loans
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - qa
+build:
+  version: 0.0.1
+accounts:
+  message: "Loans Microservice"
+  contactDetails:
+    name: Sait Yolal
+    email: msaityolal@gmail.com
+    github: https://github.com/msaityolal

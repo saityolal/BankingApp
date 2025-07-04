@@ -174,7 +174,7 @@ public class AccountsController {
 
 
     @Operation(summary = "Get Java version",
-            description = "Get Java version details that is installed into account microservice")
+            description = "Get Java version details that is installed into accounts microservice")
     @ApiResponses({
             @ApiResponse(
                     responseCode = "200",

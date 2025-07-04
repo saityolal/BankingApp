@@ -1,0 +1,13 @@
+# application-prod.yml
+spring:
+  config:
+    activate:
+      on-profile: prod
+build:
+  version: 0.0.3
+accounts:
+  message: "Cards Microservice related to production"
+  contactDetails:
+    name: Sait Yolal - product owner
+    email: msaityolal@gmail.com
+    github: https://github.com/msaityolal

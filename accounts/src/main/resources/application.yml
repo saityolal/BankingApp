@@ -17,7 +17,7 @@ spring:
       ddl-auto: update
     show-sql: true
   application:
-    name: accoounts
+    name: accounts
   config:
     import:
       - "application_qa.yml"
