@@ -1,0 +1,9 @@
+# application-qa.yml
+build:
+  version: 0.0.2
+accounts:
+  message: "Accounts Microservice related to quality assurance"
+  contactDetails:
+    name: Sait Yolal - QA
+    email: msaityolal@gmail.com
+    github: https://github.com/msaityolal

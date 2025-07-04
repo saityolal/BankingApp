@@ -1,0 +1,8 @@
+build:
+  version: 0.0.1
+accounts:
+  message: "Accounts Microservice"
+  contactDetails:
+    name: Sait Yolal
+    email: msaityolal@gmail.com
+    github: https://github.com/msaityolal
