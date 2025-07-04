@@ -1,8 +1,8 @@
-#  spring.application.name=accounts
-
 server:
   port: 8080
 spring:
+  application:
+    name: accounts
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -16,20 +16,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  application:
-    name: accounts
   config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
+    import: optional:configserver:http://localhost:8071
   profiles:
-    active:
-      - qa
-build:
-  version: 0.0.1
-accounts:
-  message: "Accounts Microservice"
-  contactDetails:
-    name: Sait Yolal
-    email: msaityolal@gmail.com
-    github: https://github.com/msaityolal
+    active: prod

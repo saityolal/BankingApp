@@ -35,7 +35,12 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class LoansController {
 
-    private ILoansService iLoansService;
+
+    private final ILoansService iLoansService;
+    @Autowired
+    public LoansController(ILoansService iLoansService) {
+        this.iLoansService = iLoansService;
+    }
 
     @Autowired
     private Environment environment;

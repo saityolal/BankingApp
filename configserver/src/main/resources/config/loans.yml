@@ -1,0 +1,8 @@
+build:
+  version: 0.0.1
+loans:
+  message: "Loans Microservice"
+  contactDetails:
+    name: Sait Yolal
+    email: msaityolal@gmail.com
+    github: https://github.com/msaityolal

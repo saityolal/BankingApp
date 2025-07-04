@@ -1,11 +1,6 @@
-# application-qa.yml
-spring:
-  config:
-    activate:
-      on-profile: qa
 build:
   version: 0.0.2
-accounts:
+loans:
   message: "Loans Microservice related to quality assurance"
   contactDetails:
     name: Sait Yolal - QA

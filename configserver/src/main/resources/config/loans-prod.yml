@@ -1,12 +1,7 @@
-# application-prod.yml
-spring:
-  config:
-    activate:
-      on-profile: prod
 build:
   version: 0.0.3
-accounts:
-  message: "Accounts Microservice related to production"
+loans:
+  message: "Loans Microservice related to production"
   contactDetails:
     name: Sait Yolal - product owner
     email: msaityolal@gmail.com
